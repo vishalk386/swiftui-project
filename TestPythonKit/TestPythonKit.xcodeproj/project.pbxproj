@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		540230182ACD327500CD026D /* requirements.txt in Resources */ = {isa = PBXBuildFile; fileRef = 540230172ACD327500CD026D /* requirements.txt */; };
+		5402301E2ACD352900CD026D /* OfficeFileCompressor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5402301D2ACD352900CD026D /* OfficeFileCompressor.swift */; };
+		540230232ACD38B900CD026D /* function1.py in Resources */ = {isa = PBXBuildFile; fileRef = 540230192ACD32BB00CD026D /* function1.py */; };
+		540230252ACD38B900CD026D /* compress-office.py in Resources */ = {isa = PBXBuildFile; fileRef = 540230122ACD2E9300CD026D /* compress-office.py */; };
+		5402302A2ACD504200CD026D /* Sample.py in Resources */ = {isa = PBXBuildFile; fileRef = 540230292ACD504100CD026D /* Sample.py */; };
+		5402302C2ACD627B00CD026D /* abc.py in Resources */ = {isa = PBXBuildFile; fileRef = 5402302B2ACD627B00CD026D /* abc.py */; };
+		5402302E2ACD6FA800CD026D /* math_operations.py in Resources */ = {isa = PBXBuildFile; fileRef = 5402302D2ACD6FA800CD026D /* math_operations.py */; };
+		540230302ACD705200CD026D /* test.py in Resources */ = {isa = PBXBuildFile; fileRef = 5402302F2ACD705200CD026D /* test.py */; };
+		540230322ACD785400CD026D /* function.py in Resources */ = {isa = PBXBuildFile; fileRef = 540230312ACD785400CD026D /* function.py */; };
+		540230342ACD787700CD026D /* history.py in Resources */ = {isa = PBXBuildFile; fileRef = 540230332ACD787700CD026D /* history.py */; };
+		540230362ACE892300CD026D /* run_app.sh in Resources */ = {isa = PBXBuildFile; fileRef = 540230352ACE891E00CD026D /* run_app.sh */; };
+		547F466F2ACBE237000D57D7 /* TestPythonKitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547F466E2ACBE237000D57D7 /* TestPythonKitApp.swift */; };
+		547F46712ACBE237000D57D7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547F46702ACBE237000D57D7 /* ContentView.swift */; };
+		547F46732ACBE239000D57D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 547F46722ACBE239000D57D7 /* Assets.xcassets */; };
+		547F46762ACBE239000D57D7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 547F46752ACBE239000D57D7 /* Preview Assets.xcassets */; };
+		54A9AECF2B0CB90300B26008 /* PythonKit in Frameworks */ = {isa = PBXBuildFile; productRef = 54A9AECE2B0CB90300B26008 /* PythonKit */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		540230122ACD2E9300CD026D /* compress-office.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = "compress-office.py"; sourceTree = "<group>"; };
+		540230172ACD327500CD026D /* requirements.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = requirements.txt; sourceTree = "<group>"; };
+		540230192ACD32BB00CD026D /* function1.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = function1.py; sourceTree = "<group>"; };
+		5402301D2ACD352900CD026D /* OfficeFileCompressor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfficeFileCompressor.swift; sourceTree = "<group>"; };
+		540230292ACD504100CD026D /* Sample.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = Sample.py; sourceTree = "<group>"; };
+		5402302B2ACD627B00CD026D /* abc.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = abc.py; sourceTree = "<group>"; };
+		5402302D2ACD6FA800CD026D /* math_operations.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = math_operations.py; sourceTree = "<group>"; };
+		5402302F2ACD705200CD026D /* test.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = test.py; sourceTree = "<group>"; };
+		540230312ACD785400CD026D /* function.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = function.py; sourceTree = "<group>"; };
+		540230332ACD787700CD026D /* history.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = history.py; sourceTree = "<group>"; };
+		540230352ACE891E00CD026D /* run_app.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = run_app.sh; sourceTree = "<group>"; };
+		547F466B2ACBE237000D57D7 /* TestPythonKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestPythonKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		547F466E2ACBE237000D57D7 /* TestPythonKitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPythonKitApp.swift; sourceTree = "<group>"; };
+		547F46702ACBE237000D57D7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		547F46722ACBE239000D57D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		547F46752ACBE239000D57D7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		547F46772ACBE239000D57D7 /* TestPythonKit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TestPythonKit.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		547F46682ACBE237000D57D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54A9AECF2B0CB90300B26008 /* PythonKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5402301F2ACD372B00CD026D /* PythonScripts */ = {
+			isa = PBXGroup;
+			children = (
+				540230192ACD32BB00CD026D /* function1.py */,
+				540230122ACD2E9300CD026D /* compress-office.py */,
+			);
+			path = PythonScripts;
+			sourceTree = "<group>";
+			usesTabs = 0;
+		};
+		547F46622ACBE237000D57D7 = {
+			isa = PBXGroup;
+			children = (
+				540230352ACE891E00CD026D /* run_app.sh */,
+				540230332ACD787700CD026D /* history.py */,
+				540230312ACD785400CD026D /* function.py */,
+				5402302F2ACD705200CD026D /* test.py */,
+				5402302D2ACD6FA800CD026D /* math_operations.py */,
+				540230172ACD327500CD026D /* requirements.txt */,
+				547F466D2ACBE237000D57D7 /* TestPythonKit */,
+				547F466C2ACBE237000D57D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		547F466C2ACBE237000D57D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				547F466B2ACBE237000D57D7 /* TestPythonKit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		547F466D2ACBE237000D57D7 /* TestPythonKit */ = {
+			isa = PBXGroup;
+			children = (
+				5402301F2ACD372B00CD026D /* PythonScripts */,
+				547F466E2ACBE237000D57D7 /* TestPythonKitApp.swift */,
+				5402301D2ACD352900CD026D /* OfficeFileCompressor.swift */,
+				547F46702ACBE237000D57D7 /* ContentView.swift */,
+				547F46722ACBE239000D57D7 /* Assets.xcassets */,
+				547F46772ACBE239000D57D7 /* TestPythonKit.entitlements */,
+				547F46742ACBE239000D57D7 /* Preview Content */,
+				5402302B2ACD627B00CD026D /* abc.py */,
+				540230292ACD504100CD026D /* Sample.py */,
+			);
+			path = TestPythonKit;
+			sourceTree = "<group>";
+		};
+		547F46742ACBE239000D57D7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				547F46752ACBE239000D57D7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		547F466A2ACBE237000D57D7 /* TestPythonKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 547F467A2ACBE239000D57D7 /* Build configuration list for PBXNativeTarget "TestPythonKit" */;
+			buildPhases = (
+				547F46672ACBE237000D57D7 /* Sources */,
+				547F46682ACBE237000D57D7 /* Frameworks */,
+				547F46692ACBE237000D57D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestPythonKit;
+			packageProductDependencies = (
+				54A9AECE2B0CB90300B26008 /* PythonKit */,
+			);
+			productName = TestPythonKit;
+			productReference = 547F466B2ACBE237000D57D7 /* TestPythonKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		547F46632ACBE237000D57D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					547F466A2ACBE237000D57D7 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 547F46662ACBE237000D57D7 /* Build configuration list for PBXProject "TestPythonKit" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 547F46622ACBE237000D57D7;
+			packageReferences = (
+				540230262ACD414900CD026D /* XCRemoteSwiftPackageReference "PythonKit" */,
+			);
+			productRefGroup = 547F466C2ACBE237000D57D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				547F466A2ACBE237000D57D7 /* TestPythonKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		547F46692ACBE237000D57D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				540230322ACD785400CD026D /* function.py in Resources */,
+				540230232ACD38B900CD026D /* function1.py in Resources */,
+				540230302ACD705200CD026D /* test.py in Resources */,
+				5402302A2ACD504200CD026D /* Sample.py in Resources */,
+				540230362ACE892300CD026D /* run_app.sh in Resources */,
+				5402302C2ACD627B00CD026D /* abc.py in Resources */,
+				540230252ACD38B900CD026D /* compress-office.py in Resources */,
+				5402302E2ACD6FA800CD026D /* math_operations.py in Resources */,
+				547F46762ACBE239000D57D7 /* Preview Assets.xcassets in Resources */,
+				540230182ACD327500CD026D /* requirements.txt in Resources */,
+				547F46732ACBE239000D57D7 /* Assets.xcassets in Resources */,
+				540230342ACD787700CD026D /* history.py in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		547F46672ACBE237000D57D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				547F46712ACBE237000D57D7 /* ContentView.swift in Sources */,
+				547F466F2ACBE237000D57D7 /* TestPythonKitApp.swift in Sources */,
+				5402301E2ACD352900CD026D /* OfficeFileCompressor.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		547F46782ACBE239000D57D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		547F46792ACBE239000D57D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		547F467B2ACBE239000D57D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TestPythonKit/TestPythonKit.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TestPythonKit/Preview Content\"";
+				DEVELOPMENT_TEAM = ANCZ566948;
+				DYLD_LIBRARY_PATH = "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/PIL/";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adstringo.TestPythonKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		547F467C2ACBE239000D57D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TestPythonKit/TestPythonKit.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TestPythonKit/Preview Content\"";
+				DEVELOPMENT_TEAM = ANCZ566948;
+				DYLD_LIBRARY_PATH = "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/PIL/";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adstringo.TestPythonKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		547F46662ACBE237000D57D7 /* Build configuration list for PBXProject "TestPythonKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				547F46782ACBE239000D57D7 /* Debug */,
+				547F46792ACBE239000D57D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		547F467A2ACBE239000D57D7 /* Build configuration list for PBXNativeTarget "TestPythonKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				547F467B2ACBE239000D57D7 /* Debug */,
+				547F467C2ACBE239000D57D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		540230262ACD414900CD026D /* XCRemoteSwiftPackageReference "PythonKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pvieito/PythonKit.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		54A9AECE2B0CB90300B26008 /* PythonKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 540230262ACD414900CD026D /* XCRemoteSwiftPackageReference "PythonKit" */;
+			productName = PythonKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 547F46632ACBE237000D57D7 /* Project object */;
+}

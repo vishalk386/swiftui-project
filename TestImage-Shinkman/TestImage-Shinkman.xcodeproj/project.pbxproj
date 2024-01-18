@@ -1,0 +1,390 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5498BC052AB0446F005B4B71 /* TestImage_ShinkmanApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5498BC042AB0446F005B4B71 /* TestImage_ShinkmanApp.swift */; };
+		5498BC072AB0446F005B4B71 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5498BC062AB0446F005B4B71 /* ContentView.swift */; };
+		5498BC092AB04470005B4B71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5498BC082AB04470005B4B71 /* Assets.xcassets */; };
+		5498BC0C2AB04470005B4B71 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5498BC0B2AB04470005B4B71 /* Preview Assets.xcassets */; };
+		5498BC142AB047ED005B4B71 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5498BC132AB047ED005B4B71 /* SettingsViewModel.swift */; };
+		54ACFD992AC6F36200C4D8F1 /* DocumentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54ACFD982AC6F36200C4D8F1 /* DocumentsView.swift */; };
+		54C308842AC2E4430007ED3A /* CompressVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C308832AC2E4430007ED3A /* CompressVideo.swift */; };
+		54C308882AC309ED0007ED3A /* FYVideoCompressor in Frameworks */ = {isa = PBXBuildFile; productRef = 54C308872AC309ED0007ED3A /* FYVideoCompressor */; };
+		54CB34F22AC415B30018AE76 /* FYVideoCompressor1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CB34F12AC415B30018AE76 /* FYVideoCompressor1.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5498BC012AB0446F005B4B71 /* TestImage-Shinkman.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TestImage-Shinkman.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5498BC042AB0446F005B4B71 /* TestImage_ShinkmanApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestImage_ShinkmanApp.swift; sourceTree = "<group>"; };
+		5498BC062AB0446F005B4B71 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5498BC082AB04470005B4B71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5498BC0B2AB04470005B4B71 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5498BC0D2AB04470005B4B71 /* TestImage_Shinkman.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TestImage_Shinkman.entitlements; sourceTree = "<group>"; };
+		5498BC132AB047ED005B4B71 /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
+		54ACFD982AC6F36200C4D8F1 /* DocumentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentsView.swift; sourceTree = "<group>"; };
+		54C308822AC2C1C70007ED3A /* file_reduce.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = file_reduce.py; sourceTree = "<group>"; };
+		54C308832AC2E4430007ED3A /* CompressVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompressVideo.swift; sourceTree = "<group>"; };
+		54CB34F12AC415B30018AE76 /* FYVideoCompressor1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FYVideoCompressor1.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5498BBFE2AB0446F005B4B71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54C308882AC309ED0007ED3A /* FYVideoCompressor in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5498BBF82AB0446F005B4B71 = {
+			isa = PBXGroup;
+			children = (
+				5498BC032AB0446F005B4B71 /* TestImage-Shinkman */,
+				5498BC022AB0446F005B4B71 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5498BC022AB0446F005B4B71 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5498BC012AB0446F005B4B71 /* TestImage-Shinkman.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5498BC032AB0446F005B4B71 /* TestImage-Shinkman */ = {
+			isa = PBXGroup;
+			children = (
+				54CB34F12AC415B30018AE76 /* FYVideoCompressor1.swift */,
+				5498BC042AB0446F005B4B71 /* TestImage_ShinkmanApp.swift */,
+				5498BC062AB0446F005B4B71 /* ContentView.swift */,
+				5498BC082AB04470005B4B71 /* Assets.xcassets */,
+				5498BC0D2AB04470005B4B71 /* TestImage_Shinkman.entitlements */,
+				5498BC0A2AB04470005B4B71 /* Preview Content */,
+				5498BC132AB047ED005B4B71 /* SettingsViewModel.swift */,
+				54C308822AC2C1C70007ED3A /* file_reduce.py */,
+				54C308832AC2E4430007ED3A /* CompressVideo.swift */,
+				54ACFD982AC6F36200C4D8F1 /* DocumentsView.swift */,
+			);
+			path = "TestImage-Shinkman";
+			sourceTree = "<group>";
+		};
+		5498BC0A2AB04470005B4B71 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5498BC0B2AB04470005B4B71 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5498BC002AB0446F005B4B71 /* TestImage-Shinkman */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5498BC102AB04470005B4B71 /* Build configuration list for PBXNativeTarget "TestImage-Shinkman" */;
+			buildPhases = (
+				5498BBFD2AB0446F005B4B71 /* Sources */,
+				5498BBFE2AB0446F005B4B71 /* Frameworks */,
+				5498BBFF2AB0446F005B4B71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TestImage-Shinkman";
+			packageProductDependencies = (
+				54C308872AC309ED0007ED3A /* FYVideoCompressor */,
+			);
+			productName = "TestImage-Shinkman";
+			productReference = 5498BC012AB0446F005B4B71 /* TestImage-Shinkman.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5498BBF92AB0446F005B4B71 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					5498BC002AB0446F005B4B71 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 5498BBFC2AB0446F005B4B71 /* Build configuration list for PBXProject "TestImage-Shinkman" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5498BBF82AB0446F005B4B71;
+			packageReferences = (
+				54C308862AC309ED0007ED3A /* XCRemoteSwiftPackageReference "FYVideoCompressor" */,
+			);
+			productRefGroup = 5498BC022AB0446F005B4B71 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5498BC002AB0446F005B4B71 /* TestImage-Shinkman */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5498BBFF2AB0446F005B4B71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5498BC0C2AB04470005B4B71 /* Preview Assets.xcassets in Resources */,
+				5498BC092AB04470005B4B71 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5498BBFD2AB0446F005B4B71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5498BC072AB0446F005B4B71 /* ContentView.swift in Sources */,
+				54C308842AC2E4430007ED3A /* CompressVideo.swift in Sources */,
+				5498BC052AB0446F005B4B71 /* TestImage_ShinkmanApp.swift in Sources */,
+				54ACFD992AC6F36200C4D8F1 /* DocumentsView.swift in Sources */,
+				5498BC142AB047ED005B4B71 /* SettingsViewModel.swift in Sources */,
+				54CB34F22AC415B30018AE76 /* FYVideoCompressor1.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5498BC0E2AB04470005B4B71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5498BC0F2AB04470005B4B71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				OTHER_SWIFT_FLAGS = "";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		5498BC112AB04470005B4B71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "TestImage-Shinkman/TestImage_Shinkman.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TestImage-Shinkman/Preview Content\"";
+				DEVELOPMENT_TEAM = ANCZ566948;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_SWIFT_FLAGS = "-Xcc -DPYTHON_LIBRARY=/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.adstringo.TestImage-Shinkman";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		5498BC122AB04470005B4B71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "TestImage-Shinkman/TestImage_Shinkman.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TestImage-Shinkman/Preview Content\"";
+				DEVELOPMENT_TEAM = ANCZ566948;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_SWIFT_FLAGS = "-Xcc -DPYTHON_LIBRARY=/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.adstringo.TestImage-Shinkman";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5498BBFC2AB0446F005B4B71 /* Build configuration list for PBXProject "TestImage-Shinkman" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5498BC0E2AB04470005B4B71 /* Debug */,
+				5498BC0F2AB04470005B4B71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5498BC102AB04470005B4B71 /* Build configuration list for PBXNativeTarget "TestImage-Shinkman" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5498BC112AB04470005B4B71 /* Debug */,
+				5498BC122AB04470005B4B71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		54C308862AC309ED0007ED3A /* XCRemoteSwiftPackageReference "FYVideoCompressor" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/T2Je/FYVideoCompressor.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.9;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		54C308872AC309ED0007ED3A /* FYVideoCompressor */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 54C308862AC309ED0007ED3A /* XCRemoteSwiftPackageReference "FYVideoCompressor" */;
+			productName = FYVideoCompressor;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 5498BBF92AB0446F005B4B71 /* Project object */;
+}

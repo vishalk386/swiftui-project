@@ -1,0 +1,636 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5415D5662A405953006D9D53 /* ShrinkmanMacosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5415D5652A405953006D9D53 /* ShrinkmanMacosApp.swift */; };
+		5415D5682A405953006D9D53 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5415D5672A405953006D9D53 /* ContentView.swift */; };
+		5415D56A2A405955006D9D53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5415D5692A405955006D9D53 /* Assets.xcassets */; };
+		5415D56D2A405955006D9D53 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5415D56C2A405955006D9D53 /* Preview Assets.xcassets */; };
+		5415D56F2A405955006D9D53 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5415D56E2A405955006D9D53 /* Persistence.swift */; };
+		5415D5722A405955006D9D53 /* ShrinkmanMacos.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5415D5702A405955006D9D53 /* ShrinkmanMacos.xcdatamodeld */; };
+		5415D57D2A405955006D9D53 /* ShrinkmanMacosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5415D57C2A405955006D9D53 /* ShrinkmanMacosTests.swift */; };
+		5415D5872A405955006D9D53 /* ShrinkmanMacosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5415D5862A405955006D9D53 /* ShrinkmanMacosUITests.swift */; };
+		5415D5892A405955006D9D53 /* ShrinkmanMacosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5415D5882A405955006D9D53 /* ShrinkmanMacosUITestsLaunchTests.swift */; };
+		5415D5972A4059DD006D9D53 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5415D5962A4059DD006D9D53 /* LoginView.swift */; };
+		5415D5992A408240006D9D53 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5415D5982A408240006D9D53 /* DashboardView.swift */; };
+		5415D59B2A40825B006D9D53 /* SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5415D59A2A40825B006D9D53 /* SideMenu.swift */; };
+		54CBE7AE2A4EA50700CDADA8 /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CBE7AD2A4EA50700CDADA8 /* Color+Extensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5415D5792A405955006D9D53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5415D55A2A405953006D9D53 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5415D5612A405953006D9D53;
+			remoteInfo = ShrinkmanMacos;
+		};
+		5415D5832A405955006D9D53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5415D55A2A405953006D9D53 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5415D5612A405953006D9D53;
+			remoteInfo = ShrinkmanMacos;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5415D5622A405953006D9D53 /* ShrinkmanMacos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShrinkmanMacos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5415D5652A405953006D9D53 /* ShrinkmanMacosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShrinkmanMacosApp.swift; sourceTree = "<group>"; };
+		5415D5672A405953006D9D53 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5415D5692A405955006D9D53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5415D56C2A405955006D9D53 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5415D56E2A405955006D9D53 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		5415D5712A405955006D9D53 /* ShrinkmanMacos.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ShrinkmanMacos.xcdatamodel; sourceTree = "<group>"; };
+		5415D5732A405955006D9D53 /* ShrinkmanMacos.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ShrinkmanMacos.entitlements; sourceTree = "<group>"; };
+		5415D5782A405955006D9D53 /* ShrinkmanMacosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShrinkmanMacosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5415D57C2A405955006D9D53 /* ShrinkmanMacosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShrinkmanMacosTests.swift; sourceTree = "<group>"; };
+		5415D5822A405955006D9D53 /* ShrinkmanMacosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShrinkmanMacosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5415D5862A405955006D9D53 /* ShrinkmanMacosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShrinkmanMacosUITests.swift; sourceTree = "<group>"; };
+		5415D5882A405955006D9D53 /* ShrinkmanMacosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShrinkmanMacosUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5415D5962A4059DD006D9D53 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		5415D5982A408240006D9D53 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		5415D59A2A40825B006D9D53 /* SideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenu.swift; sourceTree = "<group>"; };
+		54CBE7AD2A4EA50700CDADA8 /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5415D55F2A405953006D9D53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5415D5752A405955006D9D53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5415D57F2A405955006D9D53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5415D5592A405953006D9D53 = {
+			isa = PBXGroup;
+			children = (
+				5415D5642A405953006D9D53 /* ShrinkmanMacos */,
+				5415D57B2A405955006D9D53 /* ShrinkmanMacosTests */,
+				5415D5852A405955006D9D53 /* ShrinkmanMacosUITests */,
+				5415D5632A405953006D9D53 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5415D5632A405953006D9D53 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5415D5622A405953006D9D53 /* ShrinkmanMacos.app */,
+				5415D5782A405955006D9D53 /* ShrinkmanMacosTests.xctest */,
+				5415D5822A405955006D9D53 /* ShrinkmanMacosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5415D5642A405953006D9D53 /* ShrinkmanMacos */ = {
+			isa = PBXGroup;
+			children = (
+				54CBE7AC2A4EA4F000CDADA8 /* New Group */,
+				5415D5952A4059C3006D9D53 /* Views */,
+				5415D5652A405953006D9D53 /* ShrinkmanMacosApp.swift */,
+				5415D5672A405953006D9D53 /* ContentView.swift */,
+				5415D5692A405955006D9D53 /* Assets.xcassets */,
+				5415D56E2A405955006D9D53 /* Persistence.swift */,
+				5415D5732A405955006D9D53 /* ShrinkmanMacos.entitlements */,
+				5415D5702A405955006D9D53 /* ShrinkmanMacos.xcdatamodeld */,
+				5415D56B2A405955006D9D53 /* Preview Content */,
+			);
+			path = ShrinkmanMacos;
+			sourceTree = "<group>";
+		};
+		5415D56B2A405955006D9D53 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5415D56C2A405955006D9D53 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5415D57B2A405955006D9D53 /* ShrinkmanMacosTests */ = {
+			isa = PBXGroup;
+			children = (
+				5415D57C2A405955006D9D53 /* ShrinkmanMacosTests.swift */,
+			);
+			path = ShrinkmanMacosTests;
+			sourceTree = "<group>";
+		};
+		5415D5852A405955006D9D53 /* ShrinkmanMacosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5415D5862A405955006D9D53 /* ShrinkmanMacosUITests.swift */,
+				5415D5882A405955006D9D53 /* ShrinkmanMacosUITestsLaunchTests.swift */,
+			);
+			path = ShrinkmanMacosUITests;
+			sourceTree = "<group>";
+		};
+		5415D5952A4059C3006D9D53 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5415D5962A4059DD006D9D53 /* LoginView.swift */,
+				5415D5982A408240006D9D53 /* DashboardView.swift */,
+				5415D59A2A40825B006D9D53 /* SideMenu.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		54CBE7AC2A4EA4F000CDADA8 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				54CBE7AD2A4EA50700CDADA8 /* Color+Extensions.swift */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5415D5612A405953006D9D53 /* ShrinkmanMacos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5415D58C2A405955006D9D53 /* Build configuration list for PBXNativeTarget "ShrinkmanMacos" */;
+			buildPhases = (
+				5415D55E2A405953006D9D53 /* Sources */,
+				5415D55F2A405953006D9D53 /* Frameworks */,
+				5415D5602A405953006D9D53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShrinkmanMacos;
+			productName = ShrinkmanMacos;
+			productReference = 5415D5622A405953006D9D53 /* ShrinkmanMacos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5415D5772A405955006D9D53 /* ShrinkmanMacosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5415D58F2A405955006D9D53 /* Build configuration list for PBXNativeTarget "ShrinkmanMacosTests" */;
+			buildPhases = (
+				5415D5742A405955006D9D53 /* Sources */,
+				5415D5752A405955006D9D53 /* Frameworks */,
+				5415D5762A405955006D9D53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5415D57A2A405955006D9D53 /* PBXTargetDependency */,
+			);
+			name = ShrinkmanMacosTests;
+			productName = ShrinkmanMacosTests;
+			productReference = 5415D5782A405955006D9D53 /* ShrinkmanMacosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5415D5812A405955006D9D53 /* ShrinkmanMacosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5415D5922A405955006D9D53 /* Build configuration list for PBXNativeTarget "ShrinkmanMacosUITests" */;
+			buildPhases = (
+				5415D57E2A405955006D9D53 /* Sources */,
+				5415D57F2A405955006D9D53 /* Frameworks */,
+				5415D5802A405955006D9D53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5415D5842A405955006D9D53 /* PBXTargetDependency */,
+			);
+			name = ShrinkmanMacosUITests;
+			productName = ShrinkmanMacosUITests;
+			productReference = 5415D5822A405955006D9D53 /* ShrinkmanMacosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5415D55A2A405953006D9D53 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					5415D5612A405953006D9D53 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					5415D5772A405955006D9D53 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 5415D5612A405953006D9D53;
+					};
+					5415D5812A405955006D9D53 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 5415D5612A405953006D9D53;
+					};
+				};
+			};
+			buildConfigurationList = 5415D55D2A405953006D9D53 /* Build configuration list for PBXProject "ShrinkmanMacos" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5415D5592A405953006D9D53;
+			productRefGroup = 5415D5632A405953006D9D53 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5415D5612A405953006D9D53 /* ShrinkmanMacos */,
+				5415D5772A405955006D9D53 /* ShrinkmanMacosTests */,
+				5415D5812A405955006D9D53 /* ShrinkmanMacosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5415D5602A405953006D9D53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5415D56D2A405955006D9D53 /* Preview Assets.xcassets in Resources */,
+				5415D56A2A405955006D9D53 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5415D5762A405955006D9D53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5415D5802A405955006D9D53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5415D55E2A405953006D9D53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5415D56F2A405955006D9D53 /* Persistence.swift in Sources */,
+				5415D5992A408240006D9D53 /* DashboardView.swift in Sources */,
+				5415D5722A405955006D9D53 /* ShrinkmanMacos.xcdatamodeld in Sources */,
+				54CBE7AE2A4EA50700CDADA8 /* Color+Extensions.swift in Sources */,
+				5415D59B2A40825B006D9D53 /* SideMenu.swift in Sources */,
+				5415D5682A405953006D9D53 /* ContentView.swift in Sources */,
+				5415D5972A4059DD006D9D53 /* LoginView.swift in Sources */,
+				5415D5662A405953006D9D53 /* ShrinkmanMacosApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5415D5742A405955006D9D53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5415D57D2A405955006D9D53 /* ShrinkmanMacosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5415D57E2A405955006D9D53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5415D5892A405955006D9D53 /* ShrinkmanMacosUITestsLaunchTests.swift in Sources */,
+				5415D5872A405955006D9D53 /* ShrinkmanMacosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5415D57A2A405955006D9D53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5415D5612A405953006D9D53 /* ShrinkmanMacos */;
+			targetProxy = 5415D5792A405955006D9D53 /* PBXContainerItemProxy */;
+		};
+		5415D5842A405955006D9D53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5415D5612A405953006D9D53 /* ShrinkmanMacos */;
+			targetProxy = 5415D5832A405955006D9D53 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5415D58A2A405955006D9D53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5415D58B2A405955006D9D53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		5415D58D2A405955006D9D53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ShrinkmanMacos/ShrinkmanMacos.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ShrinkmanMacos/Preview Content\"";
+				DEVELOPMENT_TEAM = ANCZ566948;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adstringo.ShrinkmanMacos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		5415D58E2A405955006D9D53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ShrinkmanMacos/ShrinkmanMacos.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ShrinkmanMacos/Preview Content\"";
+				DEVELOPMENT_TEAM = ANCZ566948;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adstringo.ShrinkmanMacos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		5415D5902A405955006D9D53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ANCZ566948;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adstringo.ShrinkmanMacosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShrinkmanMacos.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ShrinkmanMacos";
+			};
+			name = Debug;
+		};
+		5415D5912A405955006D9D53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ANCZ566948;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adstringo.ShrinkmanMacosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShrinkmanMacos.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ShrinkmanMacos";
+			};
+			name = Release;
+		};
+		5415D5932A405955006D9D53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ANCZ566948;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adstringo.ShrinkmanMacosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = ShrinkmanMacos;
+			};
+			name = Debug;
+		};
+		5415D5942A405955006D9D53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ANCZ566948;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adstringo.ShrinkmanMacosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = ShrinkmanMacos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5415D55D2A405953006D9D53 /* Build configuration list for PBXProject "ShrinkmanMacos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5415D58A2A405955006D9D53 /* Debug */,
+				5415D58B2A405955006D9D53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5415D58C2A405955006D9D53 /* Build configuration list for PBXNativeTarget "ShrinkmanMacos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5415D58D2A405955006D9D53 /* Debug */,
+				5415D58E2A405955006D9D53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5415D58F2A405955006D9D53 /* Build configuration list for PBXNativeTarget "ShrinkmanMacosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5415D5902A405955006D9D53 /* Debug */,
+				5415D5912A405955006D9D53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5415D5922A405955006D9D53 /* Build configuration list for PBXNativeTarget "ShrinkmanMacosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5415D5932A405955006D9D53 /* Debug */,
+				5415D5942A405955006D9D53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5415D5702A405955006D9D53 /* ShrinkmanMacos.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5415D5712A405955006D9D53 /* ShrinkmanMacos.xcdatamodel */,
+			);
+			currentVersion = 5415D5712A405955006D9D53 /* ShrinkmanMacos.xcdatamodel */;
+			path = ShrinkmanMacos.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5415D55A2A405953006D9D53 /* Project object */;
+}

@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "fyvideocompressor",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/T2Je/FYVideoCompressor.git",
+      "state" : {
+        "revision" : "9a932d3b90291be8072d56cc34fee8f69f844ac8",
+        "version" : "0.0.9"
+      }
+    }
+  ],
+  "version" : 2
+}
